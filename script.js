@@ -208,6 +208,5 @@ var myChef = new Chef ("James Gordon", 50);
 myChef.makeChicken();
 
 var myItalianChef = new italianChef ("Massimo Bottura", 66, "Italy");
-myItalianChef.makeChicken();
+myItalianChef.makeSpecialDish;
 document.write(myItalianChef.age);
-document.write(myItalianChef.countryOfOrigin, myChef.age)
