@@ -171,41 +171,41 @@
 
 //INHERITANCE
 
-class Chef {
-  constructor (name, age) {
-    this.name = name;
-    this.age = age;
-  }
-  makeChicken () {
-    document.write ("This chef makes Chicken <br>");
-  }
-  makeSalad () {
-    document.write ("This Chef makes Salad <br>");
-  }
-  makeSpecialDish (){
-    document.write ("This Chef Makes Special DIsh <br>");
-  }
-}
+// class Chef {
+//   constructor (name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   makeChicken () {
+//     document.write ("This chef makes Chicken <br>");
+//   }
+//   makeSalad () {
+//     document.write ("This Chef makes Salad <br>");
+//   }
+//   makeSpecialDish (){
+//     document.write ("This Chef Makes Special DIsh <br>");
+//   }
+// }
 
-class italianChef extends Chef {
-  constructor (name, age, countryOfOrigin) {
-    super (name, age);
-    this.countryOfOrigin = countryOfOrigin;
-  }
+// class italianChef extends Chef {
+//   constructor (name, age, countryOfOrigin) {
+//     super (name, age);
+//     this.countryOfOrigin = countryOfOrigin;
+//   }
 
-  makePasta () {
-    document.write ("This Chef Makes Pasta <br>");
-  }
+//   makePasta () {
+//     document.write ("This Chef Makes Pasta <br>");
+//   }
 
-  //overidden//
+//   //overidden//
 
-  makeSpecialDish() {
-    document.write ("This Chef makes Chicken PArm <br>");
-  }
-}
+//   makeSpecialDish() {
+//     document.write ("This Chef makes Chicken PArm <br>");
+//   }
+// }
 
-var myChef = new Chef ("James Gordon", 50);
-myChef.makeChicken();
+// var myChef = new Chef ("James Gordon", 50);
+// myChef.makeChicken();
 
-var myItalianChef = new italianChef ("Massimo Bottura", 66, "Italy");
-myItalianChef.makeSpecialDish ();
+// var myItalianChef = new italianChef ("Massimo Bottura", 66, "Italy");
+// myItalianChef.makeSpecialDish ();
